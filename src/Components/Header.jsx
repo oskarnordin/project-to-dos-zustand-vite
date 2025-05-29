@@ -23,6 +23,7 @@ export const Header = () => {
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
+          justifyContent: 'center',
         }}
       >
         <img
@@ -30,7 +31,7 @@ export const Header = () => {
           alt='Windows Logo'
           style={{ width: 80, marginTop: 28 }}
         />
-        <h2 className='text- font-bold'>My To-Do Application</h2>
+        <h2>My To-Do Application</h2>
       </header>
       <p style={{ marginTop: 8 }}>Total to-do's: {todos.length}</p>
       <div style={{ display: 'flex', flexDirection: 'row' }}>

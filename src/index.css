@@ -23,6 +23,14 @@ button {
   margin: 5px;
 }
 
+title-bar-controls {
+  width: auto;
+}
+
+.title-bar {
+  width: 100%;
+}
+
 .title-bar-controls button {
   margin: 0;
 }
@@ -30,4 +38,40 @@ button {
 .todo p {
   margin-left: 5px;
   margin-top: 5px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.window {
+  width: 50%;
+  max-width: 800px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+h2 {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .window {
+    width: 100%;
+  }
+}
+
+.todo-window {
+  width: 100%;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .todo-window {
+    margin-top: 10px;
+    width: 100%;
+  }
 }

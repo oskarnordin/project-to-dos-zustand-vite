@@ -14,6 +14,7 @@ export const Todo = ({ id }) => {
     <div className='wrapper'>
       <div
         style={{
+          width: 'auto',
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
@@ -22,7 +23,7 @@ export const Todo = ({ id }) => {
       ></div>
       <div
         style={{
-          width: 600,
+          width: '600px',
           marginTop: '10px',
           height: todo.minimized ? '28px' : 'auto',
           overflow: 'hidden',

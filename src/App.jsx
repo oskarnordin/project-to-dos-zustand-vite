@@ -22,7 +22,7 @@ export const App = () => {
         marginTop: '20px',
       }}
     >
-      <div style={{ width: 600 }} className='window'>
+      <div className='window'>
         <div className='title-bar'>
           <div className='title-bar-text'>To-Do App</div>
         </div>
