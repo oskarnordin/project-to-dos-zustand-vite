@@ -23,7 +23,7 @@ export const Todo = ({ id }) => {
       ></div>
       <div
         style={{
-          width: '600px',
+          width: '100%',
           marginTop: '10px',
           height: todo.minimized ? '28px' : 'auto',
           overflow: 'hidden',
